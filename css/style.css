@@ -1,18 +1,21 @@
-h3:first-child{
-    color: pink;
+li{
+    list-style: none;
 }
-#greycol{
-    color: grey;
-}
-/* div > div > p{
+ul:first-child>li{
     color: red;
-} */
-p:nth-child(7){
+}
+ul:nth-child(odd)>li{
+    color: blueviolet;
+}
+ul:nth-child(even)>li{
+    color: violet;
+}
+ul:nth-child(4)>li{
     color: green;
 }
-.yellow{
-    color: yellow;
+ul:last-child>li{
+    color: rgb(114, 114, 31);
 }
-div:nth-child(5) p{
-    color: red;
+h2:hover{
+background-color: fuchsia;
 }
